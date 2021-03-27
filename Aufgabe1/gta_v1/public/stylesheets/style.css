@@ -6,3 +6,56 @@ body {
 a {
   color: #00B7FF;
 }
+
+body {
+  background-color: white;
+}
+
+.discovery {
+  width: 100%;
+}
+
+header {
+  width: auto;
+  color: white;
+  padding: 15px;
+  background-color: #808080;
+}
+
+main {
+  display: flex;
+}
+
+
+section.discovery > fieldset {
+
+  margin-left: 30px;
+}
+
+form {
+  width: 100%;
+}
+
+
+li {
+  padding: 7px;
+  margin: 7px;
+  color: white;
+  width: 250px;
+  background-color: deepskyblue;
+}
+
+.tagmap {
+  float: right;
+}
+
+.tagging {
+  padding-left: 20px;
+  width: 500px;
+}
+
+footer {
+  color: white;
+  padding: 15px;
+  background-color: #808080;
+}
