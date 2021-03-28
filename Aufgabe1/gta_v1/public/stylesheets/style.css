@@ -11,6 +11,33 @@ body {
   background-color: white;
 }
 
+
+fieldset > input[type=submit] {
+  border: 1px solid #c7254e;
+  border-radius: 5px;
+  padding: 5px 7px 5px 7px;
+  background-repeat: no-repeat;
+  background-position: 8px 9px;
+}
+
+fieldset > input[type=submit]:active {
+  background-color: #4cae4c;
+}
+
+fieldset > label > input {
+  font-size: 110%;
+  color: #5a5854;
+  background-color: #c4e3f3;
+  border: 1px solid #c7254e;
+  border-radius: 5px;
+  padding: 5px 5px 5px 10px;
+  background-repeat: no-repeat;
+  background-position: 8px 9px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
 .discovery {
   width: 100%;
 }
@@ -28,7 +55,6 @@ main {
 
 
 section.discovery > fieldset {
-
   margin-left: 30px;
 }
 
@@ -55,6 +81,7 @@ li {
 }
 
 footer {
+    float: bottom;
   color: white;
   padding: 15px;
   background-color: #808080;
